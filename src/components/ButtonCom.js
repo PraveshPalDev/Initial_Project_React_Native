@@ -28,7 +28,7 @@ export default function ButtonComp({
       style={{
         ...styles.button,
         ...style,
-        backgroundColor: colors.blueOpacity50,
+        backgroundColor: selectedTheme === 'dark' ? colors.white : colors.black,
       }}
       activeOpacity={0.7}
       {...props}>

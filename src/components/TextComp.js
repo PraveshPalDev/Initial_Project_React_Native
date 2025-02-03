@@ -25,6 +25,5 @@ const styles = StyleSheet.create({
   textStyle: {
     fontSize: textScale(16),
     fontFamily: fontFamily.mornMedium,
-    fontWeight: '500',
   },
 });

@@ -8,7 +8,6 @@ export default function FlashListComp({
   renderItem,
   numColumns = 1,
   ItemSeparatorComponent = () => {},
-  ListHeaderComponent = null,
   ...props
 }) {
   return (
@@ -28,7 +27,6 @@ export default function FlashListComp({
         </View>
       )}
       ItemSeparatorComponent={ItemSeparatorComponent}
-      ListHeaderComponent={ListHeaderComponent}
     />
   );
 }
